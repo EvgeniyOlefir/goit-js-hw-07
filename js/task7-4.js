@@ -37,3 +37,34 @@ function onIncrementBtnClick() {
   counterValue += 1;
   refs.counterValueEl.textContent = counterValue;
 }
+
+// let value = 0;
+
+// function decremenet() {
+//   value -= 1;
+
+//   render();
+// }
+
+// function incremenet() {
+//   value += 1;
+
+//   render();
+// }
+
+// function render() {
+//   ref.htmlValue.textContent = value;
+// }
+
+// // const buttonIncrement = document.querySelector('.decrement');
+// // const buttonDecrement = document.querySelector('.increment');
+// // const htmlValue = document.querySelector('.value');
+
+// const ref = {
+//   buttonDecrement: document.querySelector('.decrement'),
+//   buttonIncrement: document.querySelector('.increment'),
+//   htmlValue: document.querySelector('.value'),
+// };
+
+// ref.buttonDecrement.addEventListener('click', decremenet);
+// ref.buttonIncrement.addEventListener('click', incremenet);
