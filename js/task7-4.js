@@ -28,7 +28,7 @@ refs.decrementBtnEl.addEventListener("click", onDecrementBtnClick);
 refs.incrementBtnEl.addEventListener("click", onIncrementBtnClick);
 
 function onDecrementBtnClick() {
-  counterValue === 0
+  counterValue = 0
     ? (refs.counterValueEl.textContent = counterValue)
     : (refs.counterValueEl.textContent = counterValue -= 1);
 }
